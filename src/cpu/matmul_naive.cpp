@@ -1,4 +1,4 @@
-@"
+// @"
 #include <cstdio>
 #include <cstdlib>
 #include <chrono>
@@ -37,4 +37,4 @@ int main(int argc, char** argv) {
     printf("naive  M=N=K=%d  time=%.2f ms  %.2f GFLOPS\n", M, best, gflops);
     return 0;
 }
-"@ | Out-File -Encoding utf8 src\cpu\matmul_naive.cpp
+// "@ | Out-File -Encoding utf8 src\cpu\matmul_naive.cpp
