@@ -1,0 +1,11 @@
+@"
+build/
+*.exe
+*.o
+*.obj
+*.so
+*.dll
+.vs/
+.vscode/
+.idea/
+"@ | Out-File -Encoding utf8 .gitignore
